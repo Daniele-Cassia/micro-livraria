@@ -7,6 +7,10 @@ service InventoryService {
 
 message Empty{}
 
+message Payload {
+    int32 id = 1;
+}
+
 message ProductResponse {
     int32 id = 1;
     string name = 2;
